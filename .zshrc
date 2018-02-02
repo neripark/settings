@@ -97,6 +97,7 @@ source $ZSH/oh-my-zsh.sh
 export PATH=$HOME/.nodebrew/current/bin:$PATH
 
 # 20180202 追加
-alias -g fdl='open ~/downloads/'
-alias -g fwk='open ~/documents/'
-alias -g fdev='open ~/documents/dev/'
+# 先頭のrはWindowsのファイル名を指定して実行から引用
+alias -g rdr='open ~/downloads/'
+alias -g rwk='open ~/documents/'
+alias -g rdev='open ~/documents/dev/'
