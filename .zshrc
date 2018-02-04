@@ -98,6 +98,7 @@ export PATH=$HOME/.nodebrew/current/bin:$PATH
 
 # 20180202 追加
 # 先頭のrはWindowsのファイル名を指定して実行から引用
-alias -g rdr='open ~/downloads/'
+alias -g rdl='open ~/downloads/'
 alias -g rwk='open ~/documents/'
 alias -g rdev='open ~/documents/dev/'
+alias -g rdr='open ~/Dropbox/'
