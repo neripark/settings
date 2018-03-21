@@ -95,10 +95,4 @@ source $ZSH/oh-my-zsh.sh
 
 # 20171225 追加
 export PATH=$HOME/.nodebrew/current/bin:$PATH
-
-# 20180202 追加
-# 先頭のrはWindowsのファイル名を指定して実行から引用
-alias -g dl='open ~/downloads/'
-alias -g wk='open ~/documents/'
-alias -g dev='open ~/documents/dev/'
-alias -g dr='open ~/Dropbox/'
+eval "$(rbenv init -)"
