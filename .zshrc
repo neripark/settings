@@ -7,7 +7,7 @@ export ZSH=~/.oh-my-zsh
 # Set name of the theme to load. Optionally, if you set this to "random"
 # it'll load a random theme each time that oh-my-zsh is loaded.
 # See https://github.com/robbyrussell/oh-my-zsh/wiki/Themes
-ZSH_THEME="robbyrussell"
+ZSH_THEME="bullet-train"
 
 # Set list of themes to load
 # Setting this variable when ZSH_THEME=random
@@ -96,3 +96,16 @@ source $ZSH/oh-my-zsh.sh
 # 20171225 追加
 export PATH=$HOME/.nodebrew/current/bin:$PATH
 eval "$(rbenv init -)"
+
+# 20180324
+export PATH="$HOME/Library/Python/2.7/bin:$PATH"
+
+# powerline
+# PLDIRS=(Library/Python/2.7/lib/python/site-packages .local/lib/python2.7/site-packages)
+# PLCONF="powerline/bindings/zsh/powerline.zsh"
+# for DIR in ${PLDIRS}; do
+#         if [ -f ${HOME}/${DIR}/${PLCONF} ]; then
+#                 powerline-daemon -q
+#                 . ${HOME}/${DIR}/${PLCONF}
+#         fi
+# done
