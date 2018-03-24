@@ -9,6 +9,20 @@ export ZSH=~/.oh-my-zsh
 # See https://github.com/robbyrussell/oh-my-zsh/wiki/Themes
 ZSH_THEME="bullet-train"
 
+#bullet-train's setting.
+#https://github.com/caiogondim/bullet-train.zsh
+BULLETTRAIN_PROMPT_ORDER=(
+  time
+  dir
+  nvm
+  git
+)
+BULLETTRAIN_DIR_EXTENDED=2
+BULLETTRAIN_DIR_CONTEXT_SHOW=false
+BULLETTRAIN_TIME_BG=#CCCCCC
+BULLETTRAIN_TIME_FG=white
+
+
 # Set list of themes to load
 # Setting this variable when ZSH_THEME=random
 # cause zsh load theme from this variable instead of
