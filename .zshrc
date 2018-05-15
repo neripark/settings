@@ -19,7 +19,7 @@ BULLETTRAIN_PROMPT_ORDER=(
 )
 BULLETTRAIN_DIR_EXTENDED=2
 BULLETTRAIN_DIR_CONTEXT_SHOW=false
-BULLETTRAIN_TIME_BG=#CCCCCC
+BULLETTRAIN_TIME_BG=#333333
 BULLETTRAIN_TIME_FG=white
 
 
@@ -109,7 +109,8 @@ source $ZSH/oh-my-zsh.sh
 
 # 20171225 追加
 export PATH=$HOME/.nodebrew/current/bin:$PATH
-eval "$(rbenv init -)"
+
+# eval "$(rbenv init -)"
 
 # 20180324
 export PATH="$HOME/Library/Python/2.7/bin:$PATH"
@@ -123,3 +124,6 @@ export PATH="$HOME/Library/Python/2.7/bin:$PATH"
 #                 . ${HOME}/${DIR}/${PLCONF}
 #         fi
 # done
+
+# 20180515
+alias -g cdg='cd `ghq list -p | peco`'
