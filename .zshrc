@@ -126,4 +126,4 @@ export PATH="$HOME/Library/Python/2.7/bin:$PATH"
 # done
 
 # 20180515
-alias -g cdg='cd `ghq list -p | peco`'
+alias -g ghqcd='cd `ghq list -p | peco`'
