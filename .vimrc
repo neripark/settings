@@ -1,3 +1,2 @@
 nnoremap ; :
-nnoremap ; :
 nnoremap : ;
