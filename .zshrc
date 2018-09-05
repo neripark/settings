@@ -127,3 +127,6 @@ export PATH="$HOME/Library/Python/2.7/bin:$PATH"
 
 # 20180515
 alias -g ghqcd='cd `ghq list -p | peco`'
+
+# 20180905
+alias -g st='/Applications/SourceTree.app/Contents/Resources/stree'
