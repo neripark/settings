@@ -130,3 +130,6 @@ alias -g ghqcd='cd `ghq list -p | peco`'
 
 # 20180905
 alias -g st='/Applications/SourceTree.app/Contents/Resources/stree'
+
+# 20180907
+alias -g ghqcp='ghq list -p | peco | pbcopy'
