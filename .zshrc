@@ -133,3 +133,6 @@ alias -g st='/Applications/SourceTree.app/Contents/Resources/stree'
 
 # 20180907
 alias -g ghqcp='ghq list -p | peco | pbcopy'
+
+# 20181025
+alias -g e='emacs'
