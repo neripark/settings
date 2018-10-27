@@ -135,4 +135,5 @@ alias -g st='/Applications/SourceTree.app/Contents/Resources/stree'
 alias -g ghqcp='ghq list -p | peco | pbcopy'
 
 # 20181025
-alias -g e='emacs'
+alias -g em='/Applications/Emacs.app/Contents/MacOS/Emacs'
+alias -g e='/Applications/Emacs.app/Contents/MacOS/Emacs -nw'
