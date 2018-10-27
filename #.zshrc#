@@ -5,8 +5,8 @@
 export ZSH=~/.oh-my-zsh
 
 # Set name of the theme to load. Optionally, if you set this to "random"
-# it'll load a random theme each time that oh-my-zsh is loaded.
-# See https://github.com/robbyrussell/oh-my-zsh/wiki/Themes
+# it'll load a andom theme each time that oh-my-zsh is loaded.
+# See https://github.com/obbyrussell/oh-my-zsh/wiki/Themes
 ZSH_THEME="bullet-train"
 
 #bullet-train's setting.
@@ -110,6 +110,8 @@ source $ZSH/oh-my-zsh.sh
 # 20171225 追加
 export PATH=$HOME/.nodebrew/current/bin:$PATH
 
+# eval "$(rbenv init -)"
+
 # 20180324
 export PATH="$HOME/Library/Python/2.7/bin:$PATH"
 
@@ -135,6 +137,3 @@ alias -g ghqcp='ghq list -p | peco | pbcopy'
 # 20181025
 alias -g em='/Applications/Emacs.app/Contents/MacOS/Emacs'
 alias -g e='/Applications/Emacs.app/Contents/MacOS/Emacs -nw'
-
-# 20181027
-eval "$(rbenv init -)"
