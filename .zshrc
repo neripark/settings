@@ -138,3 +138,6 @@ alias -g e='/Applications/Emacs.app/Contents/MacOS/Emacs -nw'
 
 # 20181027
 eval "$(rbenv init -)"
+
+# 20181101
+export PATH="/usr/local/opt/mysql@5.6/bin:$PATH"
