@@ -141,3 +141,6 @@ eval "$(rbenv init -)"
 
 # 20181101
 export PATH="/usr/local/opt/mysql@5.6/bin:$PATH"
+
+# 20181109
+source ~/.zshrc_local
