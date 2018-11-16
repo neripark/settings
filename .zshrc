@@ -144,3 +144,5 @@ export PATH="/usr/local/opt/mysql@5.6/bin:$PATH"
 
 # 20181109
 source ~/.zshrc_local
+
+alias -g ifcon='ifconfig | grep 192'
