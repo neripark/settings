@@ -23,3 +23,5 @@ set expandtab
 set tabstop=2
 set shiftwidth=2
 
+" share clipboard vim and MacOS.
+set clipboard+=unnamed
