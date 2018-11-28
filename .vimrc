@@ -25,3 +25,12 @@ set shiftwidth=2
 
 " share clipboard vim and MacOS.
 set clipboard+=unnamed
+
+" smart indent
+set smartindent
+
+" display row no
+set number
+
+set t_Co=256
+
