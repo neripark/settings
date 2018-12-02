@@ -1,5 +1,6 @@
-nnoremap ; :
-nnoremap : ;
+" nnoremap ; :
+" nnoremap : ;
+nnoremap ' :
 :set term=xterm-256color
 :syntax on
 
@@ -23,8 +24,9 @@ set expandtab
 set tabstop=2
 set shiftwidth=2
 
-" share clipboard vim and MacOS.
-set clipboard+=unnamed
+share clipboard vim and MacOS.
+" set clipboard+=unnamed,autoselect
+"set clipboard=unnamed,autoselect
 
 " smart indent
 set smartindent
