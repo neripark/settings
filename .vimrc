@@ -24,8 +24,8 @@ set expandtab
 set tabstop=2
 set shiftwidth=2
 
-share clipboard vim and MacOS.
-" set clipboard+=unnamed,autoselect
+" share clipboard vim and MacOS.
+set clipboard+=unnamed,autoselect
 "set clipboard=unnamed,autoselect
 
 " smart indent
