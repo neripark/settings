@@ -36,3 +36,5 @@ set number
 
 set t_Co=256
 
+" swp file save directory.
+set directory=~/.vim/tmp
