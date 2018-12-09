@@ -1,8 +1,14 @@
-" nnoremap ; :
-" nnoremap : ;
 nnoremap ' :
 :set term=xterm-256color
 :syntax on
+
+" emacs
+inoremap <C-d> <Del>
+inoremap <C-b> <Left>
+inoremap <C-f> <Right>
+inoremap <C-y> <C-d>
+nnoremap <C-e> $
+nnoremap <C-a> ^
 
 " auto complete pair 
 inoremap ( ()<ESC>i
@@ -18,13 +24,6 @@ function ClosePair(char)
         return a:char
     endif
 endf
-
-" emacs
-imap <C-d> <Del>
-imap <C-b> <Left>
-imap <C-f> <Right>
-nmap <C-e> $
-nmap <C-a> ^
 
 " 保留
 " nnoremap gy "0P
