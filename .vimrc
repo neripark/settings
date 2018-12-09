@@ -18,6 +18,14 @@ function ClosePair(char)
         return a:char
     endif
 endf
+
+" emacs
+imap <C-d> <Del>
+imap <C-b> <Left>
+imap <C-f> <Right>
+nmap <C-e> $
+nmap <C-a> ^
+
 " 保留
 " nnoremap gy "0P
 
