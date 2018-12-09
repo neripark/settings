@@ -2,13 +2,15 @@ nnoremap ' :
 :set term=xterm-256color
 :syntax on
 
-" emacs
-inoremap <C-d> <Del>
+" vscode vimで効かないため合わせるため保留
+" inoremap <C-d> <Del>
 inoremap <C-b> <Left>
 inoremap <C-f> <Right>
 inoremap <C-y> <C-d>
+
 nnoremap <C-e> $
 nnoremap <C-a> ^
+nnoremap Y y$
 
 " auto complete pair 
 inoremap ( ()<ESC>i
