@@ -8,8 +8,8 @@ inoremap <C-b> <Left>
 inoremap <C-f> <Right>
 inoremap <C-y> <C-d>
 
-nnoremap <C-e> $
-nnoremap <C-a> ^
+" nnoremap <C-e> $
+" nnoremap <C-a> ^
 nnoremap Y y$
 
 " auto complete pair 
