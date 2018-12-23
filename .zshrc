@@ -15,6 +15,7 @@ BULLETTRAIN_PROMPT_ORDER=(
   time
   dir
   nvm
+  ruby
   git
 )
 BULLETTRAIN_DIR_EXTENDED=2
