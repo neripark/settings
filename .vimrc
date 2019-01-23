@@ -53,3 +53,5 @@ set directory=~/.vim/tmp
 " バックスペースが効かない事象を解決
 set backspace=indent,eol,start
 
+" 検索結果をハイライト
+set hlsearch
