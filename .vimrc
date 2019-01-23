@@ -55,3 +55,7 @@ set backspace=indent,eol,start
 
 " 検索結果をハイライト
 set hlsearch
+
+" 検索時ケースを無視
+set ignorecase
+
