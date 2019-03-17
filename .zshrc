@@ -44,3 +44,6 @@ alias -g em='/Applications/Emacs.app/Contents/MacOS/Emacs'
 alias -g e='/Applications/Emacs.app/Contents/MacOS/Emacs -nw'
 alias -g ifcon='ifconfig | grep 192'
 alias -g ctags="`brew --prefix`/bin/ctags"
+alias -g rbserve="ruby -run -e httpd . -port 2222"
+alias -g phpserve="php -S localhost:1111"
+
