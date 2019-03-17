@@ -1,0 +1,3 @@
+[submodule "sbmd"]
+	path = sbmd
+	url = git@github.com:neripark/test-submodule.git
