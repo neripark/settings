@@ -46,4 +46,5 @@ alias -g ifcon='ifconfig | grep 192'
 alias -g ctags="`brew --prefix`/bin/ctags"
 alias -g rbserve="ruby -run -e httpd . -port 2222"
 alias -g phpserve="php -S localhost:1111"
+alias -g gti="git"
 
