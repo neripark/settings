@@ -38,6 +38,7 @@ eval "$(rbenv init -)"
 
 # aliases
 alias -g ghqcd='cd `ghq list -p | peco`'
+alias -g ghqcode='code `ghq list -p | peco`'
 alias -g st='/Applications/SourceTree.app/Contents/Resources/stree'
 alias -g ghqcp='ghq list -p | peco | pbcopy'
 alias -g em='/Applications/Emacs.app/Contents/MacOS/Emacs'
