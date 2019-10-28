@@ -40,10 +40,10 @@ export PATH="/usr/local/opt/mysql@5.6/bin:$PATH"
 eval "$(rbenv init -)"
 
 # aliases
-alias -g ghqcd='cd `ghq list -p | peco`'
-alias -g ghqcode='code `ghq list -p | peco`'
+alias -g g='cd `ghq list -p | peco`'
+alias -g gcode='code `ghq list -p | peco`'
 alias -g st='/Applications/SourceTree.app/Contents/Resources/stree'
-alias -g ghqcp='ghq list -p | peco | pbcopy'
+alias -g gyank='ghq list -p | peco | pbcopy'
 alias -g em='/Applications/Emacs.app/Contents/MacOS/Emacs'
 alias -g e='/Applications/Emacs.app/Contents/MacOS/Emacs -nw'
 alias -g ifcon='ifconfig | grep 192'
