@@ -68,3 +68,7 @@ set ignorecase
 "     " 置換モード時に非点滅の下線タイプのカーソル
 "     let &t_SR .= "\e[4 q"
 " endif
+
+" ハイフンを単語の境界として認識
+set iskeyword=@,48-57,_
+
