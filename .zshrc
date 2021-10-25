@@ -40,12 +40,12 @@ if command -v pyenv 1>/dev/null 2>&1; then
   eval "$(pyenv init -)"
 fi
 
-source ~/.zshrc_local
 source $ZSH/oh-my-zsh.sh
-export PATH=$HOME/.nodebrew/current/bin:$PATH
+# export PATH=$HOME/.nodebrew/current/bin:$PATH
 export PATH="$HOME/Library/Python/2.7/bin:$PATH"
 export PATH="/usr/local/opt/mysql@5.6/bin:$PATH"
 eval "$(rbenv init -)"
+eval "$(nodenv init -)"
 
 # aliases
 alias -g g='cd `ghq list -p | peco`'
@@ -59,4 +59,6 @@ alias -g ctags="`brew --prefix`/bin/ctags"
 alias -g rbserve="ruby -run -e httpd . -port 2222"
 alias -g phpserve="php -S localhost:1111"
 alias -g gti="git"
+
+source ~/.zshrc_local
 
