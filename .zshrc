@@ -1,6 +1,10 @@
 # If you come from bash you might have to change your $PATH.
 # export PATH=$HOME/bin:/usr/local/bin:$PATH
 
+# ローカルマシンの設定
+source ~/.zshrc_local
+
+
 # macのデフォルトがLibreSSLなので上書き
 export PATH="/usr/local/opt/openssl/bin:$PATH"
 
@@ -59,6 +63,4 @@ alias -g ctags="`brew --prefix`/bin/ctags"
 alias -g rbserve="ruby -run -e httpd . -port 2222"
 alias -g phpserve="php -S localhost:1111"
 alias -g gti="git"
-
-source ~/.zshrc_local
 
