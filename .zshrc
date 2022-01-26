@@ -36,6 +36,9 @@ plugins=(
   git
 )
 
+# `no matches found` 対策
+setopt nonomatch
+
 # pyenvさんに~/.pyenvではなく、/usr/loca/var/pyenvを使うようにお願いする
 export PYENV_ROOT=/usr/local/var/pyenv
 
