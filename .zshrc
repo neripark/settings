@@ -39,23 +39,6 @@ plugins=(
 # `no matches found` 対策
 setopt nonomatch
 
-# pyenvさんに~/.pyenvではなく、/usr/local/var/pyenvを使うようにお願いする
-export PYENV_ROOT=/usr/local/var/pyenv
-
-# pyenvさんに自動補完機能を提供してもらう
-# if command -v pyenv 1>/dev/null 2>&1; then
-  # eval "$(pyenv init -)"
-# fi
-
-# M1 Mac 構築時に追加
-# export PYENV_ROOT="$HOME/.pyenv"
-export PATH="$PYENV_ROOT/bin:$PATH"
-eval "$(pyenv init --path)"
-eval "$(pyenv init -)"
-
-# export PYENV_ROOT="$HOME/.pyenv/shims"
-export PATH="$PYENV_ROOT:$PATH"
-export PIPENV_PYTHON="$PYENV_ROOT/python"
 
 # export LDFLAGS="-L/opt/homebrew/opt/zlib/lib"
 # export CPPFLAGS="-I/opt/homebrew/opt/zlib/include"
