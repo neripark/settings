@@ -52,9 +52,9 @@ export CPPFLAGS="-I/opt/homebrew/include"
 
 source $ZSH/oh-my-zsh.sh
 # export PATH=$HOME/.nodebrew/current/bin:$PATH
-export PATH="$HOME/Library/Python/2.7/bin:$PATH"
+# export PATH="$HOME/Library/Python/2.7/bin:$PATH"
 export PATH="/usr/local/opt/mysql@5.6/bin:$PATH"
-eval "$(rbenv init -)"
+# eval "$(rbenv init -)"
 eval "$(nodenv init -)"
 
 # aliases
