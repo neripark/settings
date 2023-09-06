@@ -76,11 +76,3 @@ alias -g gti="git"
 export PATH="/opt/homebrew/opt/mysql@5.7/bin:$PATH"
 
 
-
-# pnpm
-export PNPM_HOME="/Users/yoichi.ezura/Library/pnpm"
-case ":$PATH:" in
-  *":$PNPM_HOME:"*) ;;
-  *) export PATH="$PNPM_HOME:$PATH" ;;
-esac
-# pnpm end
