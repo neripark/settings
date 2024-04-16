@@ -29,6 +29,7 @@ BULLETTRAIN_DIR_EXTENDED=2
 BULLETTRAIN_DIR_CONTEXT_SHOW=false
 BULLETTRAIN_TIME_BG=#333333
 BULLETTRAIN_TIME_FG=white
+BULLETTRAIN_GIT_PROMPT_CMD="\$(_omz_git_prompt_info)"
 # Custom plugins may be added to ~/.oh-my-zsh/custom/plugins/
 # Example format: plugins=(rails git textmate ruby lighthouse)
 # Add wisely, as too many plugins slow down shell startup.
