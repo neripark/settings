@@ -37,6 +37,10 @@ plugins=(
   git
 )
 
+# リモートブランチの状態が表示されない事象への対策
+# ref: https://github.com/ohmyzsh/ohmyzsh/issues/12328#issuecomment-2043492331
+zstyle ':omz:alpha:lib:git' async-prompt no 
+
 # `no matches found` 対策
 setopt nonomatch
 
