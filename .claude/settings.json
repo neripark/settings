@@ -1,0 +1,39 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(npm view:*)",
+      "Bash(git checkout:*)",
+      "Bash(npm install:*)",
+      "Bash(npm run build:*)",
+      "Bash(npm run lint)",
+      "Bash(npm test)",
+      "Bash(git add:*)",
+      "Bash(git commit:*)",
+      "Bash(git push:*)",
+      "Bash(brew install:*)",
+      "Bash(nodenv versions:*)",
+      "Bash(nodenv install-latest:*)",
+      "Bash(nodenv install:*)",
+      "Bash(nodenv local:*)",
+      "Bash(node:*)",
+      "Bash(echo $NODENV_VERSION)",
+      "Bash(cat:*)",
+      "Bash(env NODENV_VERSION= npm run lint)",
+      "Bash(npm ls:*)",
+      "Bash(npm update)",
+      "Bash(rm:*)",
+      "Bash(gh pr list:*)",
+      "Bash(gh run list:*)",
+      "Bash(gh run view:*)",
+      "Bash(npm run format:*)",
+      "Bash(gh pr view:*)",
+      "Bash(npm ci:*)",
+      "Bash(find:*)",
+      "Bash(git restore:*)",
+      "Bash(gh pr checks:*)",
+      "Bash(npx prettier:*)",
+      "Bash(npm run:*)"
+    ],
+    "deny": []
+  }
+}
