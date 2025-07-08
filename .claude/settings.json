@@ -32,7 +32,15 @@
       "Bash(git restore:*)",
       "Bash(gh pr checks:*)",
       "Bash(npx prettier:*)",
-      "Bash(npm run:*)"
+      "Bash(npm run:*)",
+    ],
+    "allowedCommands": [
+      "pnpm lint",
+      "pnpm typecheck",
+      "pnpm test",
+      "pnpm build",
+      "pnpm gen",
+      "pnpm fix"
     ],
     "deny": []
   }
