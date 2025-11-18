@@ -36,3 +36,8 @@ for rel_path in "${files[@]}"; do
   ln -sfn "${src}" "${dest}"
   printf 'Linked %s -> %s\n' "${dest}" "${src}"
 done
+
+# Create ~/.vim/tmp directory
+# .vimrcでスワップファイルを作成するディレクトリとして指定しているため作成しておく
+mkdir -p "${HOME}/.vim/tmp"
+printf 'Created directory: ~/.vim/tmp\n'
