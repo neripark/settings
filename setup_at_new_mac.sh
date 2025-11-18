@@ -39,5 +39,5 @@ done
 
 # Create ~/.vim/tmp directory
 # .vimrcでスワップファイルを作成するディレクトリとして指定しているため作成しておく
-mkdir -p ~/.vim/tmp
+mkdir -p "${HOME}/.vim/tmp"
 printf 'Created directory: ~/.vim/tmp\n'
