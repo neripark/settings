@@ -49,6 +49,7 @@ set t_Co=256
 
 " swp file save directory.
 " このディレクトリがないと起動時に警告が出る
+" 新PC立ち上げ時はこのディレクトリがないのでsetupのシェルで作成している
 set directory=~/.vim/tmp
 
 " バックスペースが効かない事象を解決
