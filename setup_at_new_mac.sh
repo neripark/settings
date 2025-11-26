@@ -41,3 +41,6 @@ done
 # .vimrcでスワップファイルを作成するディレクトリとして指定しているため作成しておく
 mkdir -p "${HOME}/.vim/tmp"
 printf 'Created directory: ~/.vim/tmp\n'
+
+# gitのglobal設定で.gitignore_globalを読み込む
+git config --global core.excludesfile ~/.gitignore_global
