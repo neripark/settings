@@ -84,3 +84,5 @@ alias -g gti="git"
 export PATH="/opt/homebrew/opt/mysql@5.7/bin:$PATH"
 
 
+# asdf Goを使いたくてinstallした
+. /opt/homebrew/opt/asdf/libexec/asdf.sh
