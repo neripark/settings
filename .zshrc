@@ -86,3 +86,8 @@ export PATH="/opt/homebrew/opt/mysql@5.7/bin:$PATH"
 
 # asdf Goを使いたくてinstallした
 . /opt/homebrew/opt/asdf/libexec/asdf.sh
+eval "$(direnv hook zsh)"
+
+# aqua用の記述
+export PATH="${AQUA_ROOT_DIR:-${XDG_DATA_HOME:-$HOME/.local/share}/aquaproj-aqua}/bin:$PATH"
+
